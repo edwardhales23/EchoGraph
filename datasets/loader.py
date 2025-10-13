@@ -21,3 +21,4 @@ def generate_tone(frequency=440, duration=2.0, sample_rate=22050, amplitude=0.3,
 
 if __name__ == "__main__":
     generate_tone(440)
+
