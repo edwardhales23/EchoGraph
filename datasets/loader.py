@@ -1,12 +1,10 @@
-
-
 import numpy as np
 import soundfile as sf
 
 
 def generate_tone(frequency=440, duration=2.0, sample_rate=22050, amplitude=0.3, file_name="tone.wav"):
     """
-    Генерирует синусоидальный сигнал для тестов.
+    Generates a sinusoidal signal for testing
 
     Args:
         frequency (float): частота в Гц
